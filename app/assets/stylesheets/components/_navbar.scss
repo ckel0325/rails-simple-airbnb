@@ -15,6 +15,25 @@
   height: 50px;
 }
 
+
+.navbar-wagon .search-box {
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+  border-radius: 2px;
+  padding: 10px 50px;
+  border: solid 1px lightgrey;
+  text-align: left;
+  align-items: left;
+  outline: none;
+  margin-left: 20px;
+}
+
+.navbar-wagon .btn-self {
+  border: solid 1px lightgrey;
+  border-radius: 2px;
+  padding: 10px 25px;
+
+}
+
 /* User Avatar */
 .navbar-wagon .avatar {
   height: 35px;
@@ -25,7 +44,6 @@
 /* Right section */
 .navbar-wagon-right {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -33,7 +51,10 @@
 .navbar-wagon-item {
   cursor: pointer;
   padding: 0 20px;
+  align-items: right;
 }
+
+
 
 /* Navbar link */
 .navbar-wagon-link {

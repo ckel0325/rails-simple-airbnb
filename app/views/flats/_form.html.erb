@@ -1,0 +1,8 @@
+<%= simple_form_for(@flat) do |f| %>
+  <%= f.input :name, label: "Name your flat", placeholder: "What's the name of your flat?" %>
+  <%= f.input :address, placeholder: "What's the address?" %>
+  <%= f.input :description, placeholder: "Describe your place!" %>
+  <%= f.input :price_per_night, placeholder: "How much do you want to price it at?" %>
+  <%= f.input :number_of_guests %>
+  <%= f.submit "Submit" %>
+<% end %>

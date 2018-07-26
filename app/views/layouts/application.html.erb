@@ -10,6 +10,22 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+    <div class="navbar-wagon">
+      <!-- Logo -->
+      <a href="/" class="navbar-wagon-brand">
+        <img src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c513.png" alt="logo">
+      </a>
+      <div class="nav-search-box">
+        <input class="search-box" type="text" placeholder="Search">
+        <input class="btn btn-self "type="submit" placeholder="Search">
+      </div>
+      <!-- Right Navigation -->
+      <div class="navbar-wagon-right hidden-xs hidden-sm">
+        <!-- Profile picture with dropdown list -->
+        <div class="navbar-wagon-item">
+        </div>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
